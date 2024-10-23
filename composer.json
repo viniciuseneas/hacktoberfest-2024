@@ -6,10 +6,12 @@
   "authors": [
     {
     "name": "Vinícius Bezerra",
-    "e-mail": "vinicius.eneas@gmail.com"
+    "email": "vinicius.eneas@gmail.com"
     }
   ],
   "autoload": {
-        "psr-4": {"Hacktoberfest\\": "src/"}
+        "psr-4": {
+          "Hacktoberfest\\": "src/"
+        }
   },
 }
