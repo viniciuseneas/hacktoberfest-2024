@@ -1,0 +1,15 @@
+{
+  "name": "hacktoberfest 2024",
+  "description": "projeto para o hacktoberfest 2024",
+  "type": "library",
+  "license": "GNU",
+  "authors": [
+    {
+    "name": "Vinícius Bezerra",
+    "e-mail": "vinicius.eneas@gmail.com"
+    }
+  ],
+  "autoload": {
+        "psr-4": {"Hacktoberfest\\": "src/"}
+  },
+}
