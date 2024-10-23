@@ -1,15 +1,21 @@
 {
-  "name": "hacktoberfest 2024",
+  "name": "vegatech/hacktoberfest-2024",
   "description": "projeto para o hacktoberfest 2024",
   "type": "library",
-  "license": "GNU",
+  "minimum-stability": "stable",
+  "license": "proprietary",
   "authors": [
     {
     "name": "Vinícius Bezerra",
-    "e-mail": "vinicius.eneas@gmail.com"
+    "email": "vinicius.eneas@gmail.com"
     }
   ],
-  "autoload": {
-        "psr-4": {"Hacktoberfest\\": "src/"}
+  "require": {
+    "php": ">=8.1"
   },
+  "autoload": {
+        "psr-4": {
+          "Vegatech\\Hacktoberfest\\": "src/"
+        }
+  }
 }
