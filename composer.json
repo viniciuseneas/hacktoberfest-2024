@@ -1,5 +1,5 @@
 {
-  "name": "hacktoberfest-2024",
+  "name": "vegatech/hacktoberfest-2024",
   "description": "projeto para o hacktoberfest 2024",
   "type": "library",
   "minimum-stability": "stable",
@@ -10,9 +10,12 @@
     "email": "vinicius.eneas@gmail.com"
     }
   ],
+  "require": {
+    "php": ">=8.1"
+  },
   "autoload": {
         "psr-4": {
-          "Hacktoberfest\\": "src/"
+          "Vegatech\\Hacktoberfest\\": "src/"
         }
   }
 }
